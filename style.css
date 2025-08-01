@@ -6,3 +6,14 @@ Coffee: 63372C
 Tea Rose: EFC7C2
 Champagne Pink: FFE5D4
 */
+
+ul.center {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+li a.nav-inactive {
+    display: block;
+}
