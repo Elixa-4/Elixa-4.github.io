@@ -2,9 +2,11 @@
 <html>
 
 <head>
-    <script src="https://kit.fontawesome.com/a29197602b.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <title>Coffee Shop Site</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/a29197602b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -12,27 +14,48 @@
 <!-- Top Navigation Bar -->
 <div class="nav">
     <ul>
-        <li><a href="index.html" class="nav-active"><i class="fas fa-house"></i>Home</a></li>
-        <li><a href="menu.html" class="nav-inactive"><i class="fas fa-mug-saucer"></i>Menu</a></li>
-        <li><a href="locations.html" class="nav-inactive"><i class="fasfa-location-dot"></i>Locations</a></li>
-        <li><a href="about.html" class="nav-inactive"><i class="fas fa-circle-info"></i>About Us</a></li>
+        <li><a href="index.html" class="nav-active"><i class="material-icons">home</i></a></li>
+        <li><a href="menu.html" class="nav-inactive"><i class="material-icons">restaurant_menu</i></a></li>
+        <li><a href="locations.html" class="nav-inactive"><i class="material-icons">location_on</i></a></li>
+        <li><a href="about.html" class="nav-inactive"><i class="material-icons">info_outline</i></a></li>
     </ul>
 </div>
 
-<!-- Featured Drink -->
- <div class="featured">
-    <div>
-        <h2>Featured</h2>
-        <p>Try our brand new Iced Strawberry Matcha</p>
+<div class = "home">
+    <!-- Sidebar Image -->
+    <div class = "side-image">
+        <img src="./images/triple-latte.jpg" alt="Interior of coffee shop with tables and plants">
     </div>
-    <div>
-        <img src="./images/strawberry-matcha.jpg" alt="Iced strawberry matcha in glass cup">
+
+    <!-- Featured Drink -->
+    <div class="featured">
+        <div>
+            <h2>Featured</h2>
+            <p>Try our brand new Iced Strawberry Matcha</p>
+        </div>
+        <div>
+            <img src="./images/strawberry-matcha.jpg" alt="Iced strawberry matcha in glass cup">
+        </div>
     </div>
- </div>
+</div>
 
 <!-- Page Footer -->
 <div class="footer">
-
+    <div>
+        <p>Facebook</p>
+        <p>Instagram</p>
+        <p>Twitter</p>
+        <span class="fa-brands fa-x-twitter"></span>
+    </div>
+    <div>
+        <p>Mission Statement</p>
+        <p id="mission">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div>
+        <p>About Us</p>
+        <p>Careers</p>
+        <p>Contact</p>
+    </div>
 </div>
 
 </body>
