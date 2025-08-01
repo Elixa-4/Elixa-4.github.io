@@ -13,28 +13,51 @@ body {
 }
 
 /* Navigation Bar */
+.nav {
+    padding-bottom: 15px;
+}
 .nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: var(--dark-green);
 }
 .nav li {
     float: left;
     border-right: 1px solid var(--light-gray);
 }
 .nav li a  {
+    background-color: var(--dark-green);
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-.nav li a.nav-active {
-    background-color: var(--coffee);
-}
 .nav li a.nav-inactive:hover {
     background-color: var(--teal);
 }
 
+/* Featured Drink */
+.featured {
+    background-color: var(--coffee);
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 1000px;
+}
+.featured h2 {
+    padding-left: 15px;
+    padding-top: 5px;
+    color: white;
+}
+.featured p {
+    padding-left: 15px;
+    color: white;
+}
+.featured img {
+    max-height: 150px;
+    max-width: 150px;
+    float: right;
+    padding: 15px;
+}
