@@ -1,10 +1,10 @@
 /*
 Colors
-Dark Green: 17301C
-Teal: 5D8383
-Coffee: 63372C
-Tea Rose: EFC7C2
-Champagne Pink: FFE5D4
+Dark Green: #17301C
+Teal: #5D8383
+Coffee: #63372C
+Tea Rose: #EFC7C2
+Champagne #Pink: FFE5D4
 */
 
 ul.center {
@@ -12,8 +12,24 @@ ul.center {
     margin: 0;
     padding: 0;
     width: auto;
+    overflow: hidden;
+    background-color: #17301C;
+}
+
+li.nav {
+   float: left
 }
 
 li a.nav-inactive {
     display: block;
+    text-align: center;
+    color: white;
+    background-color: #17301C;
+}
+
+li a.nav-active {
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: #5D8383;
 }
