@@ -1,35 +1,40 @@
-/*
-Colors
-Dark Green: #17301C
-Teal: #5D8383
-Coffee: #63372C
-Tea Rose: #EFC7C2
-Champagne #Pink: FFE5D4
-*/
+:root {
+    --dark-green: #17301C;
+    --teal: #5D8383;
+    --coffee: #502b22;
+    --tea-rose: #EFC7C2;
+    --champagne: #FFE5D4;
+    --light-gray: #dfdfdf;
+}
 
-ul.center {
+body {
+    font-family: Verdana;
+    background-color: var(--light-gray);
+}
+
+/* Navigation Bar */
+.nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: auto;
     overflow: hidden;
-    background-color: #17301C;
+    background-color: var(--dark-green);
 }
-
-li.nav {
-   float: left
+.nav li {
+    float: left;
+    border-right: 1px solid var(--light-gray);
 }
-
-li a.nav-inactive {
+.nav li a  {
     display: block;
-    text-align: center;
     color: white;
-    background-color: #17301C;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav li a.nav-active {
+    background-color: var(--coffee);
+}
+.nav li a.nav-inactive:hover {
+    background-color: var(--teal);
 }
 
-li a.nav-active {
-    display: block;
-    text-align: center;
-    color: white;
-    background-color: #5D8383;
-}
